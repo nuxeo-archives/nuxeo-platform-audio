@@ -56,6 +56,7 @@ import org.nuxeo.runtime.test.runner.FeaturesRunner;
 @Deploy("org.nuxeo.ecm.platform.filemanager.core")
 @Deploy("org.nuxeo.ecm.platform.rendition.core")
 @Deploy("org.nuxeo.ecm.platform.tag")
+@Deploy("org.nuxeo.ecm.platform.collections.core:OSGI-INF/collection-core-types-contrib.xml")
 public class TestAudioImporter {
 
     protected static final String AUDIO_TYPE = "Audio";
